@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cronômetro</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="inicio">
+	Cronômetro
+</div><br><br>
+
+<!-- Visor do cronometro -->
+
+<div class="cronometro">
+
+	<p>
+		<span id="timer_horas">00</span> :
+		<span id="timer_minutos">00</span> :
+		<span id="timer_segundos">00</span> :
+		<span id="timer_decimo">00</span> 
+
+	</p>
+
+</div><br><br>
+
+<!-- Botão de Iniciar, Zerar, e Pausar -->
+
+<div class="botao">
+	<button class="bnt" onclick="iniciarCronometro();">Iniciar</button><br><br>
+	<button class="bnt" onclick="zerarCronometro();">Zerar</button><br><br>
+	<button class="bnt" onclick="pausarCronometro();">Pausar</button>
+</div>
+
+</body>
+
+<script src="script.js"></script>
+</html>

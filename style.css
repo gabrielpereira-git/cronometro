@@ -1,0 +1,54 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.inicio{
+	text-align: center;
+	text-transform: uppercase;
+	font-family: Arial;
+	font-size: 50px;
+	margin: 0 auto;
+	padding: 10px;
+	width: 100%;
+	height: 72px;
+	background-color: black;
+	color: white;
+
+}
+
+.cronometro{
+	text-align: center;
+	font-size: 60px;
+	width: 50%;
+	height: 50%;
+	background-color: black;
+	padding-top: 20px;
+	margin: 0 auto;
+	color: white;
+	
+	border-radius: 20px;
+}
+
+.bnt{
+	text-align: center;
+	font-size: 30px;
+	margin: 0 auto;
+	width: 50%;
+	height: 50%;
+	display: inline-grid;
+	border-radius: 20px;
+	border: 1px solid black;
+	transition: 1s;
+}
+
+.bnt:hover{
+	background-color: black;
+	color: white;
+}
+
+.botao{
+	text-align: center;
+	
+}
